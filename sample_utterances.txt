@@ -1,0 +1,7 @@
+Lighting  turn the {living room|device} light to {ninety nine|level}
+Lighting  set the {dining room|device} light to {zero|level}
+Lighting  turn the {kitchen|device} light {on|switch}
+Lighting  turn the {entry room|device} light {off|switch}
+Remotes   turn the {tv|remote} {on|command}
+Remotes   turn the {receiver|remote} {off|command}
+Tasks     run task {fell asleep aid|task}

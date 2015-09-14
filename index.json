@@ -1,0 +1,25 @@
+{
+  "connections": [
+    {
+      "port": 4010
+    }
+  ],
+  "plugins": {
+    "good": {
+      "reporters": [
+        {
+          "reporter": "good-console",
+          "events": {
+            "response": "*",
+            "ops": "*",
+            "error": "*",
+            "log": "*"
+          }
+        }
+      ]
+    },
+    "./index.js": {
+      "ROSIE_CONTROLLER_URL": "http://localhost/rosie_api"
+    }
+  }
+}

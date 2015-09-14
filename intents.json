@@ -1,0 +1,43 @@
+{
+  "intents": [
+    {
+      "intent": "Lighting",
+      "slots": [
+        {
+          "name": "device",
+          "type": "LITERAL"
+        },
+        {
+          "name": "level",
+          "type": "NUMBER"
+        },
+        {
+          "name": "switch",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "Remotes",
+      "slots": [
+        {
+          "name": "remote",
+          "type": "LITERAL"
+        },
+        {
+          "name": "command",
+          "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "Tasks",
+      "slots": [
+        {
+          "name": "task",
+          "type": "LITERAL"
+        }
+      ]
+    }
+  ]
+}

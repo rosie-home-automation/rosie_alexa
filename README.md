@@ -1,2 +1,2 @@
-# rosie_alexa
-An API to handle requests from Alexa that are intended for the Rosie home automation applications.
+# rfid_test_1
+Testing reading from data 0/1 from an rfid reader using wiring-pi and nodejs.
