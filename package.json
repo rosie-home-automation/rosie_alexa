@@ -23,6 +23,7 @@
     "hapi": "^8.2.0",
     "rejoice": "^2.0.1",
     "request": "^2.61.0",
-    "underscore": "^1.8.3"
+    "underscore": "^1.8.3",
+    "verify_alexa_signature": "git+https://github.com/rosie-home-automation/verify_alexa_signature.git#frey_style_promises"
   }
 }
