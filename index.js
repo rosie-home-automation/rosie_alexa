@@ -1,8 +1,10 @@
-var RosieAlexa = require('./lib/rosie_alexa')
-var routes = require('./lib/routes')
+'use strict'
 
-var register = function(server, options, next) {
-  var app = new RosieAlexa(server, options)
+let RosieAlexa = require('./lib/rosie_alexa')
+let routes = require('./lib/routes')
+
+let register = function(server, options, next) {
+  let app = new RosieAlexa(server, options)
 
   routes(server, app)
 
